@@ -1,4 +1,12 @@
 import streamlit as st
+from PIL import Image
+
+def get_image_format(path):
+    try:
+        with Image.open(path) as img:
+            return img.format  # 'JPEG', 'PNG', etc.
+    except:
+        return None
 st.set_page_config(
     page_title="Ciberbullying",
     page_icon=":guardsman:",
@@ -6,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 st.title('Ciberbullying')
-st.image('imagem.png')
+st.image(get_image_format('C:\Users\Luísa Aragão A Dias\Desktop\joe\sst\analise_de_dados\Projeto_ciberbulliyng\download.png)
 st.sidebar.header('Joe, Gustavo, Nicollas, Vinicius e Guilherme')
 
 st.sidebar.title("""Ciberbullying
@@ -30,3 +38,4 @@ with tab2:
     with tab5:
 
         st.subheader(""" Envio de mensagens ofensivas ou informações falsas. """)
+
