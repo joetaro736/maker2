@@ -1,2 +1,2 @@
 streamlit==1.22.0
-standard-imghdr==3.13.0
+standard-imghdr==
