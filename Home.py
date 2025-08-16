@@ -1,8 +1,4 @@
 import streamlit as st
-try:
-    st.set_page_config(page_title="Ciberbullying", page_icon=":guardsman:", layout="wide")
-except Exception:
-    pass
 st.title('Ciberbullying')
 st.image('imagem.png')
 st.sidebar.header('Joe, Gustavo, Nicollas, Vinicius e Guilherme')
