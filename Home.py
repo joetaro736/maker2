@@ -1,4 +1,10 @@
 import streamlit as st
+st.set_page_config(
+    page_title="Ciberbullying",
+    page_icon=":guardsman:",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 st.title('Ciberbullying')
 st.image('imagem.png')
 st.sidebar.header('Joe, Gustavo, Nicollas, Vinicius e Guilherme')
@@ -22,4 +28,5 @@ with tab2:
     with tab4:
         st.subheader("""Intimidação, zoação ou assédio dentro dos jogos""")
     with tab5:
+
         st.subheader(""" Envio de mensagens ofensivas ou informações falsas. """)
