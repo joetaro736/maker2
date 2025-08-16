@@ -1,2 +1,4 @@
 streamlit==1.22.0
-standard-imghdr==
+standard-imghdr==3.13.0
+numpy>=1.23
+Pillow==9.2.0
