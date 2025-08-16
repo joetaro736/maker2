@@ -46,5 +46,4 @@ typing_extensions==4.12.2
 tzdata==2025.1
 urllib3==2.3.0
 watchdog==6.0.0
-xyzservices==2025.4.
 streamlit==1.8.0
