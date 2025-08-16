@@ -2,8 +2,7 @@ import streamlit as st
 st.set_page_config(
     page_title="Ciberbullying",
     page_icon=":guardsman:",
-    layout="wide",
-    initial_sidebar_state="expanded"
+    layout="wide"
 )
 st.title('Ciberbullying')
 st.image('imagem.png')
