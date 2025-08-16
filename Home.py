@@ -2,7 +2,6 @@ import streamlit as st
 from pathlib import Path
 st.title('Ciberbullying')
 st.image('imagem.png')
-BASE = Path(__file__).parent
 st.sidebar.header('Joe, Gustavo, Nicollas, Vinicius e Guilherme')
 
 st.sidebar.title("""Ciberbullying
